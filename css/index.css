@@ -1,0 +1,347 @@
+/* .navbar-nav{
+    padding-left: 400px;
+} */
+
+.navbar{
+    background-color: rgb(9, 9, 129);
+}
+  /* SECTION-1 */
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 234, 234);
+    flex-wrap: wrap;
+    padding-left: 50px;
+  }
+  .cont {
+    width: 50%;
+    padding-top: 80px;
+    text-align: left;
+  }
+  .contimg {
+    width: 40%;
+  }
+  .cont button {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(9, 9, 129);
+    padding: 10px;
+  }
+  /* SECTION - 2 */
+  .section2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .sect2cont {
+    display: flex;
+  }
+  .fa-solid {
+    padding: 10px;
+  }
+  #vertical {
+    border-right: 1px solid silver;
+    padding-right: 20px;
+  }
+  /* Section- 3 */
+  .section3 {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .section3::-webkit-scrollbar {
+    display: none;
+  }
+  .sect3cont {
+    background-color: rgb(9, 9, 129);
+    margin-left: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 300px;
+  }
+  /* Section - 4 */
+  .num {
+    font-size: 40px;
+    font-weight: 50px;
+  }
+  .num2 {
+    font-size: 40px;
+    font-weight: 50px;
+  }
+  .section4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 234, 234);
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  .cards {
+    width: 20%;
+    border: none;
+  }
+  .section5 h2 {
+    text-align: center;
+    color: rgb(9, 9, 129);
+  }
+  /* section -5 */
+  .section5 {
+    margin-top: 10px;
+  }
+  .parent-div{
+    width: 100%; 
+    border: 1px solid #f1f1f1; 
+    padding:0; 
+    margin: 0; 
+    background: white;
+    color: blue;
+    
+}
+.accordion-heading{
+    background: white; 
+    padding: 5px 10px; 
+    margin: 0; 
+    cursor: pointer; 
+    color: black;
+    font-size: smaller;
+}
+.accordion-heading span{
+    float: right;
+}
+.accordion-body{
+display: none;
+    padding: 0 10px;
+}
+  /* Section - 6 */
+  .section6 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+  .cont6 {
+    width: 60%;
+    padding-top: 50px;
+    text-align: left;
+  }
+  .cont6 input {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .cont6img {
+    width: 40%;
+  }
+  .cont6 button {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(9, 9, 129);
+    padding: 10px;
+  }
+  /* Section - 7 */
+  .section7 {
+    background-image: url("/assests/Group\ 17432.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  .cont7 {
+    color: white;
+  }
+  .cont7 i {
+    padding-left: 20px;
+  }
+  #cont {
+    text-align: center;
+  }
+  footer {
+    background-color: rgb(9, 9, 129);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  /* RESPONSIVE START FORM HERE */
+  @media screen and (max-width: 500px) {
+    /* section - 1 */
+    .section1 {
+      flex-direction: column;
+      padding-left: 0%;
+    }
+    .contimg {
+      width: 100%;
+    }
+    .cont {
+      width: 100%;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .cont h2 {
+      font-size: 20px;
+    }
+    /* Section-2 */
+    .section2 {
+      flex-direction: column;
+      text-align: center;
+    }
+    #vertical {
+      text-align: center;
+      border: none;
+      border-bottom: 1px solid silver;
+      padding-top: 10px;
+    }
+    #vertical h3 {
+      font-size: 22px;
+    }
+    #vertical p {
+      font-size: 14px;
+    }
+    .sect2cont {
+      margin-left: 120px;
+      padding-top: 10px;
+    }
+    .sect2cont h3 {
+      font-size: 22px;
+    }
+    .sect2cont p {
+      font-size: 14px;
+    }
+    /* section-3 */
+    .section3 {
+      overflow: scroll;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .sect3cont h3 {
+      font-size: 20px;
+    }
+    .sect3cont p {
+      font-size: 14px;
+    }
+    /* Section - 4 */
+    .section4 {
+      flex-wrap: wrap;
+    }
+    .cards {
+      width: 50%;
+      padding: 20px;
+    }
+    .cards p {
+      font-size: 14px;
+    }
+    /* section - 6 */
+    .section6 {
+      flex-direction: column;
+      padding-left: 0%;
+    }
+    .cont6img {
+      width: 100%;
+    }
+    .cont6 {
+      width: 100%;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .cont6 h2 {
+      font-size: 20px;
+    }
+    /* section -7 */
+    .section7 {
+      flex-direction: column;
+      padding-top: 0px;
+    }
+    .cont7 {
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 14px;
+    }
+    .cont7 p {
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 501px) and (max-width: 800px) {
+    /* section -1 */
+    .contimg {
+      width: 50%;
+    }
+    .cont {
+      width: 40%;
+      font-size: 15px;
+      padding: 10px 0px;
+    }
+    .cont h2 {
+      font-size: 22px;
+    }
+    .cont p {
+      font-size: 14px;
+    }
+    /* section - 2 */
+    #vertical h3 {
+      font-size: 24px;
+    }
+    #vertical p {
+      font-size: 14px;
+    }
+    .sect2cont h3 {
+      font-size: 21px;
+    }
+    .sect3cont p {
+      font-size: 10px;
+    }
+    /* section -3 */
+    .sect3cont h3 {
+      font-size: 22px;
+    }
+    .sect3cont p {
+      font-size: 14px;
+    }
+    /* SEction - 4 */
+    .section4 {
+      flex-wrap: wrap;
+    }
+    .cards {
+      width: 40%;
+      padding: 30px;
+    }
+    .cards p {
+      font-size: 15px;
+    }
+    /* section - 6 */
+    .cont6img {
+      width: 50%;
+    }
+    .cont6 {
+      width: 50%;
+      font-size: 15px;
+      padding: 10px 0px;
+    }
+    .cont6 h2 {
+      font-size: 22px;
+    }
+    .cont6 p {
+      font-size: 14px;
+    }
+    /* section -7 */
+    .section7 {
+      flex-direction: column;
+      padding-top: 0px;
+    }
+    .cont7 {
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 20px;
+    }
+    .cont7 p {
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    .section4 {
+      flex-wrap: wrap;
+    }
+    .cards {
+      width: 50%;
+      padding: 30px;
+    }
+  }
+  
